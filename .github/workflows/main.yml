@@ -2,8 +2,10 @@ name: Build-OpenWrt
 
 on:
   push:
-    branches: 
-      - master
+    paths:
+      - '.config'
+#   branches: 
+#     - master
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
