@@ -1,6 +1,12 @@
-# Steps
-0. Sign up for [GitHub Actions](https://github.com/features/actions/signup)\(Ignore if already signed up\).<br/>
-1. [Fork](https://github.com/project-openwrt/build-openwrt/fork) this repo.<br/>
-2. Upload the `config file(s)`, other `packages`/`files` to your ropo, and write your `own commands` to `before(after)_build.sh`.<br/>
-3. It will auto start build.
-4. When the build is complete, click the Artifacts button in the upper right corner of the Actions page to download the binaries.
+## 使用方法
+
+1. 点击Fork将项目Fork到自己的仓库
+
+2. Fork完成后进行一次新的编译：
+    - 点击Star  
+    - 更新.config  
+
+3. 在Action中下载编译好的项目
+
+4. 修复cpu info显示问题请参考我的另一个项目：
+https://github.com/YYiiEt/raspberry-offical-openwrt-patch
